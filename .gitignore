@@ -1,0 +1,11 @@
+# Node.js
+/node_modules
+package-lock.json
+
+
+# WebdriverIO
+/allure-results
+/allure-report
+
+# Environment variables
+.env
