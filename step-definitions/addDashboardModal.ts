@@ -1,5 +1,5 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
-const AddDashboardModalPage = require('../pageObjects/addDashboardModal.page');
+const AddDashboardModalPage = require('../pages/addDashboardModal.page');
 
 const addDashboardModalPage = new AddDashboardModalPage();
 

@@ -1,5 +1,5 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
-const DashboardPage = require('../pageObjects/dashboard.page');
+const DashboardPage = require('../pages/dashboard.page');
 
 When(/^I click on the Add New Dashboard button$/, async () => {
   await DashboardPage.clickAddNewDashboard();

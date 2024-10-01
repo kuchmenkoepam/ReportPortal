@@ -1,5 +1,5 @@
 const { Given, When, Then } = require('@wdio/cucumber-framework');
-const MainMenuPage = require('../pageObjects/mainMenu.page');
+const MainMenuPage = require('../pages/mainMenu.page');
 
 
 When('I click on the "Dashboard" button in the main menu', async function () {
